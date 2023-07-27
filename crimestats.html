@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--Application will search for crime statistics
+-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="crimestats.js"></script>
+    <link href="city_of_calgary_dataset.css" rel="stylesheet" type="text/css">
+    <title>Traffic Camera Info</title>
+    <h1>City of Calgary Crime Statistics</h1>
+</head>
+<body onload="loaddata()">
+    <table>
+        <tr><td>Sector:</td><td><input type="text" id="sector" size="15"></td></tr>
+        <tr><td>Community Name:</td><td><input type="text" id="community_name" size="15"></td></tr>
+        <tr><td>Category:</td><td><input type="text" id="category" size="15"></td></tr>
+        <table id="searchresults"></table>
+    </table>    
+    <p><a href="index.html">Home page</a></p> 
+</body>
+</html>

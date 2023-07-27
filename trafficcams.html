@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--Application will search for camera information like location and quadrants
+-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="_1getdataset.js"></script>
+    <link href="city_of_calgary_dataset.css" rel="stylesheet" type="text/css">
+    <title>Traffic Camera Info</title>
+    <h1>City of Calgary Traffic Camera Information</h1>
+</head>
+<body onload="loaddata()">
+    <table>
+        <tr><td>Camera Location:</td><td><input type="text" id="cameralocation" size="15"></td></tr>
+        <tr><td>City Quadrant:</td><td><input type="text" id="quadrant" size="15"></td></tr>
+        <table id="searchresults"></table>
+    </table>    
+    <p><a href="index.html">Home page</a></p> 
+</body>
+</html>

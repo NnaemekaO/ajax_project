@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--Application will search for traffic incidents
+-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="traffic_info.js"></script>
+    <link href="city_of_calgary_dataset.css" rel="stylesheet" type="text/css">
+    <title>traffic-incidents-info</title>
+    <h1>Traffic Incidents in the City of Calgary</h1>
+</head>
+<body onload="loaddata()">
+    <table>
+        <tr><td>Incident Information:</td><td><input type="text" id="incident_information" size="15"></td></tr>
+        <tr><td>Description:</td><td><input type="text" id="desc" size="15"></td></tr>
+        <tr><td>City Quadrant:</td><td><input type="text" id="city_quadrant" size="15"></td></tr>
+        <table id="searchresults"></table>
+    </table>    
+    <p><a href="index.html">Home page</a></p> 
+</body>
+</html>

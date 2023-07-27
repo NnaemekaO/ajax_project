@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--Application will search for building permits
+-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="b_permits.js"></script>
+    <link href="city_of_calgary_dataset.css" rel="stylesheet" type="text/css">
+    <title>Building Permit Info</title>
+    <h1>Building Permit Data For the City of Calgary</h1>
+</head>
+<body onload="loaddata()">
+    <table>
+        <tr><td>Type of Permit:</td><td><input type="text" id="permit_type" size="15"></td></tr>
+        <tr><td>Permit Class Group:</td><td><input type="text" id="permit_class_group" size="15"></td></tr>
+        <tr><td>Name of Contractor:</td><td><input type="text" id="contractor_name" size="15"></td></tr>
+        <table id="searchresults"></table>
+    </table>    
+    <p><a href="index.html">Home page</a></p> 
+</body>
+</html>
